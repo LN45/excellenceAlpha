@@ -4,7 +4,7 @@ html {
 
 @font-face {
   font-family: "Pricedownbl";
-  src: url("../font/pricedownbl.ttf");
+  src: url("font/pricedownbl.ttf");
 }
 
 /*background*/
@@ -12,7 +12,7 @@ section {
     background-color: white;
 }
 body {
-  background-image: url('/assets/images/background.jpg');
+  background-image: url('images/background.jpg');
   background-size: cover;
 }
 
@@ -329,7 +329,7 @@ ul {
 .coverphoto{
   width:100%;
   height:160px;
-  background:url('/assets/images/palmiers.png');
+  background:url('images/palmiers.png');
   background-position:center center;
   background-size:cover;
   border-bottom:1px solid #ccc;
