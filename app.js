@@ -29,9 +29,9 @@ $(document).ready(function() {
  /*color link navbar*/
  window.addEventListener('load', function (){
   chemin = window.location.pathname;
-  home = '/ln45.github.io/excellenceAlpha.github.io/index.html';
-  job = '/ln45.github.io/excellenceAlpha.github.io/job.html';
-  don = '/ln45.github.io/excellenceAlpha.github.io/don.html';
+  home = '/excellenceAlpha.github.io/index.html';
+  job = '/excellenceAlpha.github.io/job.html';
+  don = '/excellenceAlpha.github.io/don.html';
   if(chemin == home) {
     $('.home-link').addClass('color');
   }
