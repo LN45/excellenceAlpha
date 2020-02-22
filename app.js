@@ -27,13 +27,26 @@ $(document).ready(function() {
 });
 
  /*color link navbar*/
- $(window)(function() {
+ window.addEventListener('load', function (){
   chemin = window.location.pathname;
+  home = '/';
+  job = '/job';
+  don = '/don';
+  armurerie = '/armurerie';
+  concessionnaire = '/concessionnaire';
   if(chemin == '/') {
-    $('home-link').addClass('color');
-    console.log(chemin);
+    $('.home-link').addClass('color');
+  }
+  if(chemin == '/job') {
+    $('.job-link').addClass('color');
+  }
+  if(chemin == '/don') {
+    $('.don-link').addClass('color');
+  }
+  if(chemin == '/armurerie') {
+    $('.armurerie-link').addClass('color');
+  }
+  if(chemin == '/concessionnaire') {
+    $('.concessionnaire-link').addClass('color');
   }
 })
-var chemin = window.location.pathname;
-
-
