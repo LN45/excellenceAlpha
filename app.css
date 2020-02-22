@@ -136,6 +136,7 @@ p {
 }
 .navbar-light .navbar-toggler {
   border-color: orange !important;
+  font-size: 2.5rem !important;
 }
 .navbar-nav {
   margin-right: 145px
