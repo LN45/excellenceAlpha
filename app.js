@@ -30,8 +30,8 @@ $(document).ready(function() {
  window.addEventListener('load', function (){
   chemin = window.location.pathname;
   home = '/ln45.github.io/excellenceAlpha.github.io/index.html';
-  job = 'ln45.github.io/excellenceAlpha.github.io/job.html';
-  don = 'ln45.github.io/excellenceAlpha.github.io/don.html';
+  job = '/ln45.github.io/excellenceAlpha.github.io/job.html';
+  don = '/ln45.github.io/excellenceAlpha.github.io/don.html';
   if(chemin == home) {
     $('.home-link').addClass('color');
   }
@@ -42,3 +42,4 @@ $(document).ready(function() {
     $('.don-link').addClass('color');
   }
 })
+console.log(chemin);
