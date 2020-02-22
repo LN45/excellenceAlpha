@@ -29,24 +29,16 @@ $(document).ready(function() {
  /*color link navbar*/
  window.addEventListener('load', function (){
   chemin = window.location.pathname;
-  home = '/';
-  job = '/job';
-  don = '/don';
-  armurerie = '/armurerie';
-  concessionnaire = '/concessionnaire';
-  if(chemin == '/') {
+  home = '/ln45.github.io/excellenceAlpha.github.io/index.html';
+  job = 'ln45.github.io/excellenceAlpha.github.io/job.html';
+  don = 'ln45.github.io/excellenceAlpha.github.io/don.html';
+  if(chemin == home) {
     $('.home-link').addClass('color');
   }
-  if(chemin == '/job') {
+  if(chemin == job) {
     $('.job-link').addClass('color');
   }
-  if(chemin == '/don') {
+  if(chemin == don) {
     $('.don-link').addClass('color');
-  }
-  if(chemin == '/armurerie') {
-    $('.armurerie-link').addClass('color');
-  }
-  if(chemin == '/concessionnaire') {
-    $('.concessionnaire-link').addClass('color');
   }
 })
