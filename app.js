@@ -32,8 +32,12 @@ $(document).ready(function() {
   home = '/excellenceAlpha.github.io/index.html';
   job = '/excellenceAlpha.github.io/job.html';
   don = '/excellenceAlpha.github.io/don.html';
+  gouv = '/excellenceAlpha.github.io/gouv.html';
   if(chemin == home) {
     $('.home-link').addClass('color');
+  }
+  if(chemin == gouv) {
+      $('.gouv-link').addClass('color');
   }
   if(chemin == job) {
     $('.job-link').addClass('color');

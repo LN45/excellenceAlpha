@@ -76,16 +76,19 @@ h2 {
   color: white;
 }
 p {
-  font-size: 1.3rem;
+  font-size: 2rem;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  color: white;
 }
 .paragraphWhy {
   color: white;
 }
 
-.don {
-    color : white;
-    font-size: 3rem;
+.gouv {
+  font-size: 2rem;
+  color: white;
 }
+
 
 /* navigation */
 .navbar {
@@ -206,6 +209,25 @@ p {
   position: relative;
   z-index: 1;
 }
+
+
+/*Gouvernement*/
+.gouv_paragraph {
+  margin-top: 10%;
+}
+
+.section_gouv {
+  margin-top: 10%;
+}
+
+.liste_candidat a h2 {
+  color: orange;
+}
+
+.liste_candidat a {
+  text-decoration: none;
+}
+
 /*Activités*/
 ul {
     list-style: none;
@@ -320,6 +342,10 @@ ul {
 .modal-content {
   width: auto;
   margin-left: -16%;
+}
+
+.job_paragraph {
+  margin-top: 10%;
 }
 
 /*carte de visite*/
